@@ -11,7 +11,7 @@
 (setq y (read))
 )
 (defun GreaterThan(x y)
-(if(lambda(x y)(> x y))
+(if(> x y)
 (princ "Number One is Greater") 
 (princ "Number Two is Greater")
 )
